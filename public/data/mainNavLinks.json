@@ -1,0 +1,22 @@
+[
+  {
+    "name": "home",
+    "url": "/#home"
+  },
+  {
+    "name": "about",
+    "url": "/#about"
+  },
+  {
+    "name": "services",
+    "url": "/#services"
+  },
+  {
+    "name": "featured",
+    "url": "/#featured"
+  },
+  {
+    "name": "gallery",
+    "url": "/#gallery"
+  }
+]

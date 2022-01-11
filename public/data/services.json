@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Saving Money",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium unde expedita ratione molestiae eaque dicta.",
+    "icon": "wallet"
+  },
+  {
+    "id": 2,
+    "name": "Endless Biking",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium unde expedita ratione molestiae eaque dicta.",
+    "icon": "tree"
+  },
+  {
+    "id": 3,
+    "name": "Amazing Comfort",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium unde expedita ratione molestiae eaque dicta.",
+    "icon": "socks"
+  }
+]

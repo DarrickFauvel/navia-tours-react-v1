@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Tibet Adventure",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa dolorem omnis quam vero! Vero, debitis. Nobis aperiam hic inventore!",
+    "destination": "China",
+    "date": "August 26th",
+    "duration": "6 days",
+    "cost": 2100,
+    "image": "tour-1.jpeg",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Best Of Java",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa dolorem omnis quam vero! Vero, debitis. Nobis aperiam hic inventore!",
+    "destination": "Indonesia",
+    "date": "October 1st",
+    "duration": "11 days",
+    "cost": 1400,
+    "image": "tour-2.jpeg",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Explore Hong Kong",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa dolorem omnis quam vero! Vero, debitis. Nobis aperiam hic inventore!",
+    "destination": "Hong Kong",
+    "date": "September 15th",
+    "duration": "8 days",
+    "cost": 5000,
+    "image": "tour-3.jpeg",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Kenya Highlights",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa dolorem omnis quam vero! Vero, debitis. Nobis aperiam hic inventore!",
+    "destination": "Kenya",
+    "date": "December 5th",
+    "duration": "20 days",
+    "cost": 3300,
+    "image": "tour-4.jpeg",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Tibet Adventure",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa dolorem omnis quam vero! Vero, debitis. Nobis aperiam hic inventore!",
+    "destination": "China",
+    "date": "August 26th",
+    "duration": "6 days",
+    "cost": 2100,
+    "image": "tour-5.jpeg",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Tibet Adventure",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa dolorem omnis quam vero! Vero, debitis. Nobis aperiam hic inventore!",
+    "destination": "China",
+    "date": "August 26th",
+    "duration": "6 days",
+    "cost": 2100,
+    "image": "tour-6.jpeg",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Tibet Adventure",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa dolorem omnis quam vero! Vero, debitis. Nobis aperiam hic inventore!",
+    "destination": "China",
+    "date": "August 26th",
+    "duration": "6 days",
+    "cost": 2100,
+    "image": "tour-7.jpeg",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Tibet Adventure",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa dolorem omnis quam vero! Vero, debitis. Nobis aperiam hic inventore!",
+    "destination": "China",
+    "date": "August 26th",
+    "duration": "6 days",
+    "cost": 2100,
+    "image": "tour-8.jpeg",
+    "featured": false
+  }
+]
