@@ -1,6 +1,9 @@
-// import Logo from '/images/navia-logo.svg'
+import { useContext } from 'react'
+import SiteContext from '../../contexts/SiteContext'
 
 const NavHeader = () => {
+  const { toggleMenu } = useContext(SiteContext)
+
   return (
     <div className='nav-header'>
       <a href='#home' className='scroll-link'>
@@ -10,7 +13,11 @@ const NavHeader = () => {
           alt='navia logo'
         />
       </a>
-      <button type='button' className='nav-toggle' id='nav-toggle'>
+      <button
+        type='button'
+        className='nav-toggle'
+        id='nav-toggle'
+        onClick={toggleMenu}>
         <i className='fas fa-bars'></i>
       </button>
     </div>

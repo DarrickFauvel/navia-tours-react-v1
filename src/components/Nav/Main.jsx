@@ -1,8 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
+import SiteContext from '../../contexts/SiteContext'
 import Link from './Link'
 
 const MainNav = ({ linkType }) => {
   const [links, setLinks] = useState([])
+
+  const { showLinks } = useContext(SiteContext)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -14,7 +17,9 @@ const MainNav = ({ linkType }) => {
   }, [])
 
   return (
-    <ul className={`${linkType}-links`} id={`${linkType}-links`}>
+    <ul
+      className={`${linkType}-links ${showLinks && 'show-links'}`}
+      id={`${linkType}-links`}>
       {links.map(({ name, url, linkClass }, index) => (
         <li key={index}>
           <Link name={name} url={url} linkType={linkType} />
