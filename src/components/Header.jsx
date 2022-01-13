@@ -1,8 +1,12 @@
+import { useContext } from 'react'
+import SiteContext from '../contexts/SiteContext'
 import Navbar from './Navbar'
 
 const Header = () => {
+  const { homeRef } = useContext(SiteContext)
+
   return (
-    <header id='home'>
+    <header id='home' ref={homeRef}>
       <Navbar />
 
       {/* <!-- hero START --> */}
