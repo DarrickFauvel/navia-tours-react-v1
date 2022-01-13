@@ -12,7 +12,7 @@ function App() {
 
   const siteContextObject = {
     showLinks,
-    toggleMenu
+    toggleMenu,
   }
 
   return (
