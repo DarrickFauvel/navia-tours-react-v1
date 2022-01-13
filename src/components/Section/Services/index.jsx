@@ -1,8 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
+import SiteContext from '../../../contexts/SiteContext'
 import Service from './Service'
 
 const ServicesSection = () => {
   const [services, setServices] = useState(null)
+
+  const { servicesRef } = useContext(SiteContext)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -14,7 +17,7 @@ const ServicesSection = () => {
   }, [])
 
   return (
-    <section className='section services' id='services'>
+    <section className='section services' id='services' ref={servicesRef}>
       <div className='section-title'>
         <h2>
           our <span>services</span>
