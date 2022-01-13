@@ -1,7 +1,7 @@
 import SiteContext from './contexts/SiteContext'
 import './styles.css'
 import Home from './pages/Home'
-import { useState } from 'react'
+import { toggleMenu } from './utils'
 
 function App() {
   const [showLinks, setShowLinks] = useState(false)
