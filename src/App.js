@@ -16,6 +16,7 @@ function App() {
 
   const siteContextObject = {
     showLinks,
+    setShowLinks,
     toggleMenu,
     homeRef,
     aboutRef,
