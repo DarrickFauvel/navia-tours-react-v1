@@ -38,6 +38,7 @@ function App() {
     showLinks,
     setShowLinks,
     toggleMenu,
+    scrollToAnchor,
     homeRef,
     aboutRef,
     servicesRef,
