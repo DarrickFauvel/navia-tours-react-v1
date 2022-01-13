@@ -1,13 +1,17 @@
 import SiteContext from './contexts/SiteContext'
 import './styles.css'
 import Home from './pages/Home'
+import { useRef, useState } from 'react'
 import { toggleMenu } from './utils'
 
 function App() {
   const [showLinks, setShowLinks] = useState(false)
 
-  const toggleMenu = () => {
-    setShowLinks(!showLinks)
+  const homeRef = useRef()
+  const aboutRef = useRef()
+  const servicesRef = useRef()
+  const featuredRef = useRef()
+  const galleryRef = useRef()
   }
 
   const siteContextObject = {
