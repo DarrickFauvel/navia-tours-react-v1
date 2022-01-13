@@ -1,8 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
+import SiteContext from '../../../contexts/SiteContext'
 import Tour from './Tour'
 
 const FeaturedToursSection = () => {
   const [tours, setTours] = useState(null)
+
+  const { featuredRef } = useContext(SiteContext)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -14,7 +17,7 @@ const FeaturedToursSection = () => {
   }, [])
 
   return (
-    <section className='section' id='featured'>
+    <section className='section' id='featured' ref={featuredRef}>
       <div className='section-title'>
         <h2>
           featured <span>tours</span>
