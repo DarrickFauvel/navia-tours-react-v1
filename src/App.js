@@ -17,6 +17,11 @@ function App() {
   const siteContextObject = {
     showLinks,
     toggleMenu,
+    homeRef,
+    aboutRef,
+    servicesRef,
+    featuredRef,
+    galleryRef
   }
 
   return (
