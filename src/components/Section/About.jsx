@@ -1,8 +1,11 @@
-// import Photo from '../../images/photos/rowan-heuvel-U6t80TWJ1DM-unsplash.jpg'
+import { useContext } from 'react'
+import SiteContext from '../../contexts/SiteContext'
 
 const AboutSection = () => {
+  const { aboutRef } = useContext(SiteContext)
+
   return (
-    <section className='section' id='about'>
+    <section className='section' id='about' ref={aboutRef}>
       {/* <!-- section-title START --> */}
       <div className='section-title'>
         <h2>
